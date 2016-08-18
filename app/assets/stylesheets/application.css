@@ -41,3 +41,11 @@ th { border-bottom: 1px solid #DDD; }
 #main-carousel {
 	float: right;
 }
+
+#navbar-buttons {
+	justify-content: right;
+}
+
+.nav {
+	float: right;
+}
