@@ -18,7 +18,7 @@ body {
 	margin: 80px 0px;
 }
 
-div.container {
+.container {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
@@ -56,9 +56,14 @@ div.container {
 
 #mission {
 	font-size: 20px;
-	color: #FFFFFF;
-	background-color: #033C5A;
+	color: gray;
+	background-color: #EDE2CD;
 	text-align: center;
+}
+
+#resources {
+	padding: 30px 100px;
+	margin: 0px;
 }
 
 #navbar-buttons {
@@ -100,6 +105,7 @@ div.container {
 }
 
 #social-block{
+	display:inline-block;
 	float:right;
 	margin-top:2rem;
 	margin-right:2rem
