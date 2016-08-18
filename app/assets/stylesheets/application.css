@@ -15,21 +15,13 @@
  *= require_self
  */
 body {
-	font-family: 'Roboto';
 	margin: 8%;
 }
 
-<<<<<<< HEAD
 div.container {
 	/*width: 100%;*/
 /*	margin: 0px;
 	padding: 0px;*/
-=======
-.container {
-	width: 100%;
-	margin: 0px;
-	padding: 0px;
->>>>>>> 9d636ee6a8d19b38260141ea5bb24d7079167ec9
 }
 
 .block {
