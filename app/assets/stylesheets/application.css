@@ -20,24 +20,24 @@ font-family: 'Open Sans', sans-serif !important;
 }
 
 body {
-	margin: 80px 0px;
+	margin: 8%;
 }
 
-.container {
-	width: 100%;
-	margin: 0px;
-	padding: 0px;
+div.container {
+	/*width: 100%;*/
+/*	margin: 0px;
+	padding: 0px;*/
 }
 
 .block {
 	display: block;
 	clear: both;
-	padding: 30px 200px;
+	padding: 3%;
 }
 
 #main-carousel, #title {
 	width: 50%;
-	display: inline-block;
+	/*display: inline-block;*/
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -50,25 +50,39 @@ body {
 }
 
 #main-title {
-	font-size: 100px;
-	line-height: 90px;
+	font-size: 600%;
+	line-height: 100%;
 }
 
 #main-carousel {
 	float: right;
-	margin-bottom: 30px;
+	margin-bottom: 10%;
 }
 
 #mission {
+<<<<<<< HEAD
+	font-size: 175%;
+	color: #FFFFFF;
+	background-color: #033C5A;
+=======
 	font-size: 20px;
 	color: gray;
 	background-color: #EDE2CD;
+>>>>>>> 9d636ee6a8d19b38260141ea5bb24d7079167ec9
 	text-align: center;
 }
 
 #resources {
 	padding: 30px 100px;
 	margin: 0px;
+}
+
+.thumbnail .caption {
+	background-color: rgba(0, 0, 0, 0.4);
+	margin-top: -58px;
+	position: relative;
+	z-index: 1;
+	color: #FFFFFF;
 }
 
 #navbar-buttons {
