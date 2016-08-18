@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  get 'library/index'
-
+  # get 'library/index'
+  resources :library
   resources :ideas
 
   root 'ideas#index'
