@@ -14,10 +14,13 @@
  *= require_tree .
  *= require_self
  */
-body { padding-top: 100px; }
-footer { margin-top: 100px; }
-table, td, th { vertical-align: middle; border: none; }
-th { border-bottom: 1px solid #DDD; }
+body {
+	margin: 33px 0px;
+}
+
+.container {
+	width: 100%;
+}
 
 .block {
 	display: block;
@@ -41,6 +44,13 @@ th { border-bottom: 1px solid #DDD; }
 
 #main-carousel {
 	float: right;
+}
+
+#mission {
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #033C5A;
+	text-align: center;
 }
 
 #navbar-buttons {
