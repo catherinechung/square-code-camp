@@ -19,10 +19,17 @@ body {
 	margin: 8%;
 }
 
+<<<<<<< HEAD
 div.container {
 	/*width: 100%;*/
 /*	margin: 0px;
 	padding: 0px;*/
+=======
+.container {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+>>>>>>> 9d636ee6a8d19b38260141ea5bb24d7079167ec9
 }
 
 .block {
@@ -56,10 +63,21 @@ div.container {
 }
 
 #mission {
+<<<<<<< HEAD
 	font-size: 175%;
 	color: #FFFFFF;
 	background-color: #033C5A;
+=======
+	font-size: 20px;
+	color: gray;
+	background-color: #EDE2CD;
+>>>>>>> 9d636ee6a8d19b38260141ea5bb24d7079167ec9
 	text-align: center;
+}
+
+#resources {
+	padding: 30px 100px;
+	margin: 0px;
 }
 
 #navbar-buttons {
@@ -70,11 +88,38 @@ div.container {
 	float: right;
 }
 
+.navbar-container {
+	background-color: #033C5A !important;
+}
+
 .navbar-header {
 	float:none !important;
 }
 
+.brand {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: rgb(134, 191, 215) !important;
+}
+
+.social-icon > img {
+	margin-top: 20px !important;
+}
+
+.social-icon {
+	color: transparent !important;
+  background-color: transparent !important;
+}
+
 #social-block{
+	display:inline-block;
 	float:right;
 	margin-top:2rem;
 	margin-right:2rem
