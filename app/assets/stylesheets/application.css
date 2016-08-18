@@ -30,6 +30,20 @@ div.container {
 	padding: 30px 200px;
 }
 
+#footer {
+	background-color: #033C5A;
+	color: white;
+	padding: 25px;
+	font-size: 18pt;
+	line-height: 100%;
+}
+
+#footer-nested {
+	font-size: 11pt;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
 #main-carousel, #title {
 	width: 50%;
 	display: inline-block;
