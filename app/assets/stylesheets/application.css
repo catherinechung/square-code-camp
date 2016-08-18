@@ -50,3 +50,10 @@ th { border-bottom: 1px solid #DDD; }
 .nav {
 	float: right;
 }
+
+#social-block{
+	display:inline-block;
+	float:right;
+	margin-top:2rem;
+	margin-right:2rem
+}
