@@ -16,7 +16,11 @@
  */
 
 * {
-font-family: 'Open Sans', sans-serif !important;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.glyphicon {
+	font-family: 'Glyphicons Halflings' !important;
 }
 
 body {
@@ -64,6 +68,11 @@ div.container {
 	width: 1000px;
 }
 
+.carousel-caption {
+	padding-bottom: 0px;
+}
+
+
 #title {
 	float: left;
 }
@@ -80,6 +89,7 @@ div.container {
 
 #mission {
 	font-size: 20px;
+	line-height: 130%;
 	color: gray;
 	background-color: #EDE2CD;
 	text-align: center;
@@ -146,4 +156,12 @@ a:hover {
 	float:right;
 	margin-top:2rem;
 	margin-right:2rem
+}
+
+
+/** custom styling **/
+
+.search_dropdown {
+	display: inline-block;
+	padding-right: 5px;
 }
