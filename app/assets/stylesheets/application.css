@@ -14,20 +14,49 @@
  *= require_tree .
  *= require_self
  */
-body { padding-top: 100px; }
-footer { margin-top: 100px; }
-table, td, th { vertical-align: middle; border: none; }
-th { border-bottom: 1px solid #DDD; }
+
+* {
+font-family: 'Open Sans', sans-serif !important;
+}
+
+body {
+	margin: 8%;
+}
+
+div.container {
+	/*width: 100%;*/
+/*	margin: 0px;
+	padding: 0px;*/
+}
 
 .block {
 	display: block;
 	clear: both;
-	padding: 30px 0px;
+	padding: 3%;
 }
 
-#main-carousel, #main-title {
+#footer {
+	background-color: #033C5A;
+	color: white;
+	padding: 25px;
+	font-size: 18pt;
+	line-height: 100%;
+}
+
+#footer-nested {
+	font-size: 11pt;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+#main-carousel, #title {
 	width: 50%;
-	display: inline;
+	/*display: inline-block;*/
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	height: 400px;
+	width: 1000px;
 }
 
 #title {
@@ -35,12 +64,33 @@ th { border-bottom: 1px solid #DDD; }
 }
 
 #main-title {
-	font-size: 24px;
-	line-height: 30px;
+	font-size: 600%;
+	line-height: 100%;
 }
 
 #main-carousel {
 	float: right;
+	margin-bottom: 10%;
+}
+
+#mission {
+	font-size: 20px;
+	color: gray;
+	background-color: #EDE2CD;
+	text-align: center;
+}
+
+#resources {
+	padding: 30px 100px;
+	margin: 0px;
+}
+
+.thumbnail .caption {
+	background-color: rgba(0, 0, 0, 0.4);
+	margin-top: -58px;
+	position: relative;
+	z-index: 1;
+	color: #FFFFFF;
 }
 
 #navbar-buttons {
@@ -49,6 +99,41 @@ th { border-bottom: 1px solid #DDD; }
 
 .nav {
 	float: right;
+}
+
+.navbar-container {
+	background-color: #033C5A !important;
+}
+
+.navbar-header {
+	float:none !important;
+}
+
+.brand {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: rgb(134, 191, 215) !important;
+}
+
+.social-icon > img {
+	margin-top: 20px !important;
+}
+
+.social-icon {
+	color: transparent !important;
+  background-color: transparent !important;
+}
+
+a:hover {
+	color: transparent !important;
+	background-color: transparent !important;
 }
 
 #social-block{
