@@ -61,8 +61,34 @@ body {
 	float: right;
 }
 
+.navbar-container {
+	background-color: #033C5A !important;
+}
+
 .navbar-header {
 	float:none !important;
+}
+
+.brand {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: rgb(134, 191, 215) !important;
+}
+
+.social-icon > img {
+	margin-top: 20px !important;
+}
+
+.social-icon {
+	color: transparent !important;
+  background-color: transparent !important;
 }
 
 #social-block{
