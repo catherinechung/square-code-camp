@@ -57,3 +57,11 @@ th { border-bottom: 1px solid #DDD; }
 	margin-top:2rem;
 	margin-right:2rem
 }
+
+
+/** custom styling **/
+
+.search_dropdown {
+	display: inline-block;
+	padding-right: 5px;
+}
