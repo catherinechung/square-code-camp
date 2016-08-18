@@ -125,8 +125,8 @@ div.container {
 }
 
 .brand {
-	margin-left: 20px;
-	margin-top: 20px;
+	margin-left: 50px;
+	margin-top: 30px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -139,6 +139,7 @@ div.container {
 
 .social-icon > img {
 	margin-top: 20px !important;
+	margin-right: 15px !important;
 }
 
 .social-icon {
@@ -163,5 +164,7 @@ a:hover {
 
 .search_dropdown {
 	display: inline-block;
-	padding-right: 5px;
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
