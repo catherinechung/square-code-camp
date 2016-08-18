@@ -31,16 +31,15 @@ body {
 	margin-top: 8%;
 }
 
-<<<<<<< HEAD
 h2 {
 	margin-top: 0%;
 	text-align: center;
-=======
+}
+
 div.container {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
->>>>>>> 7f3a659ab775acab9fdbbf4fe4060d16463ec145
 }
 
 .block {
