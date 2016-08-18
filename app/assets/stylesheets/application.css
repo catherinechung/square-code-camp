@@ -74,15 +74,9 @@ div.container {
 }
 
 #mission {
-<<<<<<< HEAD
-	font-size: 175%;
-	color: #FFFFFF;
-	background-color: #033C5A;
-=======
 	font-size: 20px;
 	color: gray;
 	background-color: #EDE2CD;
->>>>>>> 9d636ee6a8d19b38260141ea5bb24d7079167ec9
 	text-align: center;
 }
 
@@ -135,6 +129,11 @@ div.container {
 .social-icon {
 	color: transparent !important;
   background-color: transparent !important;
+}
+
+a:hover {
+	color: transparent !important;
+	background-color: transparent !important;
 }
 
 #social-block{
