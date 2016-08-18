@@ -4,7 +4,7 @@ Website revamp for http://xchange.gwu.edu/
 
 ~ Currently Under Construction ~
 
-boop
+:o)
 
 The front page will be made to be more visually appealing and easier to navigate.
 
