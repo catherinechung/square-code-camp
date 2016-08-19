@@ -167,7 +167,6 @@ a:hover {
 
 
 /** custom styling **/
-
 .search_dropdown {
 	display: inline-block;
 	padding-top: 30px;
@@ -191,3 +190,41 @@ tr, td, th
 {
   border: 0 !important;
 }
+
+/*.btn {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 15px 45px;
+  font-size: 15px;
+  line-height: 1.8;
+  vertical-align: bottom;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.btn > button:focus {
+  outline: none
+}
+.btn > section.flat button {
+  color: #fff;
+  background-color: #6496c8;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+}
+.btn > section.flat button:hover,
+.btn > section.flat button.hover {
+  background-color: #346392;
+  text-shadow: -1px 1px #27496d;
+}
+.btn > section.flat button:active,
+.btn > section.flat button.active {
+  background-color: #27496d;
+  text-shadow: -1px 1px #193047;
+}*/
