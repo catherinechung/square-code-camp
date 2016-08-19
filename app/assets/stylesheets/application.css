@@ -91,7 +91,7 @@ div.container {
 }
 
 #sub-title {
-	font-size: 175%;
+	font-size: 125%;
 	line-height: 250%;
 }
 
@@ -196,7 +196,8 @@ a:hover {
 
 .num {
 	font-weight: bold;
-	color: red;
+	/*color: red;*/
+	color: #033C5A;
 }
 
 #stats .col-md-4 {
