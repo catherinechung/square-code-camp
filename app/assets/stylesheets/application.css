@@ -184,7 +184,7 @@ a:hover {
 }
 
 th {
-		padding-left: 250px !important;
+	padding-left: 250px !important;
 }
 
 tbody {
@@ -194,4 +194,13 @@ tbody {
 tr, td, th
 {
   border: 0 !important;
+}
+
+span#library {
+	font-size: 250%;
+	padding: 3%;
+}
+
+#query {
+	margin-left: 2%;
 }
