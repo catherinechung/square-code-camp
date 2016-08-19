@@ -41,6 +41,7 @@ div.container {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	margin-top: -120px;
 }
 
 .block {
@@ -52,21 +53,20 @@ div.container {
 #footer {
 	background-color: #033C5A;
 	color: white;
-	padding: 25px;
-	font-size: 18pt;
+	padding: 3%;
+	font-size: 200%;
 	line-height: 100%;
 	width: 100% !important;
 }
 
 #footer-nested {
-	font-size: 11pt;
-	padding-top: 10px;
-	padding-left: 30px;
+	font-size: 60%;
+	padding-top: 1%;
+	padding-left: 3%;
 }
 
 #main-carousel, #title {
 	width: 50%;
-	/*display: inline-block;*/
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -88,9 +88,13 @@ div.container {
 	line-height: 100%;
 }
 
+#sub-title {
+	font-size: 175%;
+}
+
 #main-carousel {
 	float: right;
-	margin-bottom: 10%;
+	margin-bottom: 25px;
 }
 
 #mission {
@@ -101,6 +105,10 @@ div.container {
 	text-align: center;
 }
 
+#map{
+	width: 100%;
+	background-color: #EDE2CD;
+}
 #resources {
 	padding: 30px 100px;
 	margin: 0px;
@@ -120,6 +128,10 @@ div.container {
 
 .nav {
 	float: right;
+}
+
+.nav li {
+	font-size: 135%;
 }
 
 .navbar-container {
@@ -166,6 +178,10 @@ a:hover {
 }
 
 
+#intro {
+	padding: 0px 100px !important;
+}
+
 /** custom styling **/
 .search_dropdown {
 	display: inline-block;
@@ -179,11 +195,7 @@ a:hover {
 }
 
 th {
-		padding-left: 250px !important;
-}
-
-tbody {
-	padding-left: 100px;
+	padding-left: 90px !important;
 }
 
 tr, td, th
@@ -191,40 +203,15 @@ tr, td, th
   border: 0 !important;
 }
 
-/*.btn {
-  display: inline-block;
-  margin: 0 10px 0 0;
-  padding: 15px 45px;
-  font-size: 15px;
-  line-height: 1.8;
-  vertical-align: bottom;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
+#library {
+	font-size: 250%;
+	padding: 3%;
 }
 
-.btn > button:focus {
-  outline: none
+#query {
+	margin-left: 2%;
 }
-.btn > section.flat button {
-  color: #fff;
-  background-color: #6496c8;
-  text-shadow: -1px 1px #417cb8;
-  border: none;
+
+div.communications {
+	margin-top: 8%;
 }
-.btn > section.flat button:hover,
-.btn > section.flat button.hover {
-  background-color: #346392;
-  text-shadow: -1px 1px #27496d;
-}
-.btn > section.flat button:active,
-.btn > section.flat button.active {
-  background-color: #27496d;
-  text-shadow: -1px 1px #193047;
-}*/
