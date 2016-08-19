@@ -41,6 +41,7 @@ div.container {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	margin-top: -120px;
 }
 
 .block {
@@ -66,7 +67,6 @@ div.container {
 
 #main-carousel, #title {
 	width: 50%;
-	/*display: inline-block;*/
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -90,7 +90,7 @@ div.container {
 
 #main-carousel {
 	float: right;
-	margin-bottom: 10%;
+	margin-bottom: 25px;
 }
 
 #mission {
@@ -165,6 +165,10 @@ a:hover {
 	margin-right:2rem
 }
 
+
+#intro {
+	padding: 0px 100px !important;
+}
 
 /** custom styling **/
 
