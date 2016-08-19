@@ -23,6 +23,7 @@
 	font-family: 'Glyphicons Halflings' !important;
 }
 
+
 body {
 	width: 100%;
 	margin-left: 0 !important;
@@ -48,14 +49,26 @@ div.container {
 	padding: 3%;
 }
 
-#footer {
-	background-color: #033C5A;
-	color: white;
-	padding: 25px;
-	font-size: 18pt;
-	line-height: 100%;
-	width: 100% !important;
+
+.headerstyle { 
+  position: relative !important;
+  top: -280px !important; 
+  right: -7% !important;
 }
+
+.headerstyle {
+  position: relative;
+  top: 0px;
+  right: -7%;
+}
+
+.headerstyle2 {
+	position: relative;
+    top: 0px;
+    right: -37%;
+    width: 70%;
+	}
+
 
 #footer-nested {
 	font-size: 11pt;
@@ -173,3 +186,4 @@ a:hover {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
