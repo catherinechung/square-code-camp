@@ -53,16 +53,16 @@ div.container {
 #footer {
 	background-color: #033C5A;
 	color: white;
-	padding: 25px;
-	font-size: 18pt;
+	padding: 3%;
+	font-size: 200%;
 	line-height: 100%;
 	width: 100% !important;
 }
 
 #footer-nested {
-	font-size: 11pt;
-	padding-top: 10px;
-	padding-left: 30px;
+	font-size: 60%;
+	padding-top: 1%;
+	padding-left: 3%;
 }
 
 #main-carousel, #title {
@@ -105,6 +105,10 @@ div.container {
 	text-align: center;
 }
 
+#map{
+	width: 100%;
+	background-color: #EDE2CD;
+}
 #resources {
 	padding: 30px 100px;
 	margin: 0px;
@@ -124,6 +128,10 @@ div.container {
 
 .nav {
 	float: right;
+}
+
+.nav li {
+	font-size: 135%;
 }
 
 .navbar-container {
@@ -194,7 +202,6 @@ a:hover {
 }
 
 /** custom styling **/
-
 .search_dropdown {
 	display: inline-block;
 	padding-top: 30px;
@@ -207,11 +214,7 @@ a:hover {
 }
 
 th {
-	padding-left: 250px !important;
-}
-
-tbody {
-	padding-left: 100px;
+	padding-left: 90px !important;
 }
 
 tr, td, th
@@ -219,11 +222,15 @@ tr, td, th
   border: 0 !important;
 }
 
-span#library {
+#library {
 	font-size: 250%;
 	padding: 3%;
 }
 
 #query {
 	margin-left: 2%;
+}
+
+div.communications {
+	margin-top: 8%;
 }
