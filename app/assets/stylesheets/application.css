@@ -17,7 +17,7 @@
 
 * {
 	/*font-family: 'Open Sans', sans-serif !important; */
-	font-family: 'Lato', sans-serif !important; */
+	font-family: 'Hind Guntur', sans-serif !important;
 }
 
 .glyphicon {
@@ -29,7 +29,7 @@ body {
 	margin-left: 0 !important;
 	margin-right: 0 !important;
 	margin-bottom: 0 !important;
-	margin-top: 15%;
+	margin-top: 12%;
 }
 
 h2 {
@@ -39,9 +39,7 @@ h2 {
 
 div.container {
 	width: 100%;
-	margin: 0px;
-	padding: 0px;
-	margin-top: -120px;
+	padding: 0%;
 }
 
 .block {
@@ -65,6 +63,10 @@ div.container {
 	padding-left: 3%;
 }
 
+.carousel {
+	margin-top: 5%;
+}
+
 #main-carousel, #title {
 	width: 50%;
 }
@@ -84,13 +86,19 @@ div.container {
 }
 
 #main-title {
-	font-size: 600%;
+<<<<<<< HEAD
+	margin-top: 13%;
+	font-size: 450%;
 	line-height: 100%;
+=======
+	margin-top: 10%;
+	line-height: 60%;
+>>>>>>> caecfffcf465564ca22054de80efa67acb7bd0ff
 }
 
 #sub-title {
 	font-size: 175%;
-	line-height: 50px;
+	line-height: 120%;
 }
 
 #main-carousel {
@@ -180,7 +188,6 @@ a:hover {
 
 
 #intro {
-	padding: 0px 100px !important;
 }
 
 #stats {
@@ -199,7 +206,7 @@ a:hover {
 }
 
 #stats .col-md-4 {
-	padding: 30px 0px;
+	padding: 3% 0%;
 }
 
 /** custom styling **/
@@ -232,5 +239,5 @@ tr, td, th
 }
 
 div.communications {
-	margin-top: 8%;
+	margin-top: 2%;
 }
