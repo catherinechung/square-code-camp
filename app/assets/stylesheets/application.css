@@ -16,13 +16,13 @@
  */
 
 * {
-	font-family: 'Open Sans', sans-serif !important;
+	/*font-family: 'Open Sans', sans-serif !important; */
+	font-family: 'Lato', sans-serif !important; */
 }
 
 .glyphicon {
 	font-family: 'Glyphicons Halflings' !important;
 }
-
 
 body {
 	width: 100%;
@@ -41,6 +41,7 @@ div.container {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	margin-top: -120px;
 }
 
 .block {
@@ -49,26 +50,14 @@ div.container {
 	padding: 3%;
 }
 
-
-.headerstyle { 
-  position: relative !important;
-  top: -280px !important; 
-  right: -7% !important;
+#footer {
+	background-color: #033C5A;
+	color: white;
+	padding: 25px;
+	font-size: 18pt;
+	line-height: 100%;
+	width: 100% !important;
 }
-
-.headerstyle {
-  position: relative;
-  top: 0px;
-  right: -7%;
-}
-
-.headerstyle2 {
-	position: relative;
-    top: 0px;
-    right: -37%;
-    width: 70%;
-	}
-
 
 #footer-nested {
 	font-size: 11pt;
@@ -78,7 +67,6 @@ div.container {
 
 #main-carousel, #title {
 	width: 50%;
-	/*display: inline-block;*/
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -100,9 +88,13 @@ div.container {
 	line-height: 100%;
 }
 
+#sub-title {
+	font-size: 175%;
+}
+
 #main-carousel {
 	float: right;
-	margin-bottom: 10%;
+	margin-bottom: 25px;
 }
 
 #mission {
@@ -166,7 +158,7 @@ div.container {
 }
 
 a:hover {
-	color: transparent !important;
+	color: black !important;
 	background-color: transparent !important;
 }
 
@@ -178,6 +170,10 @@ a:hover {
 }
 
 
+#intro {
+	padding: 0px 100px !important;
+}
+
 /** custom styling **/
 
 .search_dropdown {
@@ -187,3 +183,28 @@ a:hover {
 	padding-right: 10px;
 }
 
+#search {
+	padding-left: 20px;
+}
+
+th {
+	padding-left: 250px !important;
+}
+
+tbody {
+	padding-left: 100px;
+}
+
+tr, td, th
+{
+  border: 0 !important;
+}
+
+span#library {
+	font-size: 250%;
+	padding: 3%;
+}
+
+#query {
+	margin-left: 2%;
+}
