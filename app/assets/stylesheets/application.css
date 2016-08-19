@@ -16,8 +16,7 @@
  */
 
 * {
-	/*font-family: 'Open Sans', sans-serif !important; */
-	font-family: 'Lato', sans-serif !important; */
+	font-family: 'Hind Guntur', sans-serif !important;
 }
 
 .glyphicon {
@@ -86,14 +85,14 @@ div.container {
 }
 
 #main-title {
-	margin-top: 10%;
+	margin-top: 13%;
 	font-size: 450%;
 	line-height: 100%;
 }
 
 #sub-title {
-	font-size: 175%;
-	line-height: 175%;
+	font-size: 125%;
+	line-height: 250%;
 }
 
 #main-carousel {
@@ -183,7 +182,6 @@ a:hover {
 
 
 #intro {
-	padding: 0px 100px !important;
 }
 
 #stats {
@@ -198,11 +196,12 @@ a:hover {
 
 .num {
 	font-weight: bold;
-	color: red;
+	/*color: red;*/
+	color: #033C5A;
 }
 
 #stats .col-md-4 {
-	padding: 30px 0px;
+	padding: 3% 0%;
 }
 
 /** custom styling **/
