@@ -105,6 +105,10 @@ div.container {
 	text-align: center;
 }
 
+#map{
+	width: 100%;
+	background-color: #EDE2CD;
+}
 #resources {
 	padding: 30px 100px;
 	margin: 0px;
