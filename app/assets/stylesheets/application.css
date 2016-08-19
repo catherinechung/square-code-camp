@@ -86,7 +86,7 @@ div.container {
 }
 
 #main-title {
-	margin-top: 10%;
+	margin-top: 13%;
 	font-size: 450%;
 	line-height: 100%;
 }
@@ -202,7 +202,7 @@ a:hover {
 }
 
 #stats .col-md-4 {
-	padding: 30px 0px;
+	padding: 3% 0%;
 }
 
 /** custom styling **/
