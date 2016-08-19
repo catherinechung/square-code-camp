@@ -41,6 +41,7 @@ div.container {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	margin-top: -120px;
 }
 
 .block {
@@ -66,7 +67,6 @@ div.container {
 
 #main-carousel, #title {
 	width: 50%;
-	/*display: inline-block;*/
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -88,9 +88,13 @@ div.container {
 	line-height: 100%;
 }
 
+#sub-title {
+	font-size: 175%;
+}
+
 #main-carousel {
 	float: right;
-	margin-bottom: 10%;
+	margin-bottom: 25px;
 }
 
 #mission {
@@ -166,6 +170,10 @@ a:hover {
 }
 
 
+#intro {
+	padding: 0px 100px !important;
+}
+
 /** custom styling **/
 
 .search_dropdown {
@@ -180,7 +188,7 @@ a:hover {
 }
 
 th {
-		padding-left: 250px !important;
+	padding-left: 250px !important;
 }
 
 tbody {
@@ -190,4 +198,13 @@ tbody {
 tr, td, th
 {
   border: 0 !important;
+}
+
+span#library {
+	font-size: 250%;
+	padding: 3%;
+}
+
+#query {
+	margin-left: 2%;
 }
