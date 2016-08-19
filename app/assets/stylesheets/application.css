@@ -53,16 +53,16 @@ div.container {
 #footer {
 	background-color: #033C5A;
 	color: white;
-	padding: 25px;
-	font-size: 18pt;
+	padding: 3%;
+	font-size: 200%;
 	line-height: 100%;
 	width: 100% !important;
 }
 
 #footer-nested {
-	font-size: 11pt;
-	padding-top: 10px;
-	padding-left: 30px;
+	font-size: 60%;
+	padding-top: 1%;
+	padding-left: 3%;
 }
 
 #main-carousel, #title {
@@ -124,6 +124,10 @@ div.container {
 
 .nav {
 	float: right;
+}
+
+.nav li {
+	font-size: 135%;
 }
 
 .navbar-container {
@@ -207,4 +211,8 @@ span#library {
 
 #query {
 	margin-left: 2%;
+}
+
+div.communications {
+	margin-top: 8%;
 }
