@@ -87,13 +87,12 @@ div.container {
 
 #main-title {
 	margin-top: 10%;
-	font-size: 450%;
-	line-height: 100%;
+	line-height: 60%;
 }
 
 #sub-title {
 	font-size: 175%;
-	line-height: 175%;
+	line-height: 120%;
 }
 
 #main-carousel {
@@ -183,7 +182,6 @@ a:hover {
 
 
 #intro {
-	padding: 0px 100px !important;
 }
 
 #stats {
