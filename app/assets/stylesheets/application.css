@@ -16,7 +16,8 @@
  */
 
 * {
-	font-family: 'Open Sans', sans-serif !important;
+	/*font-family: 'Open Sans', sans-serif !important; */
+	font-family: 'Lato', sans-serif !important; */
 }
 
 .glyphicon {
@@ -153,7 +154,7 @@ div.container {
 }
 
 a:hover {
-	color: transparent !important;
+	color: black !important;
 	background-color: transparent !important;
 }
 
@@ -172,4 +173,21 @@ a:hover {
 	padding-top: 30px;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+#search {
+	padding-left: 20px;
+}
+
+th {
+		padding-left: 250px !important;
+}
+
+tbody {
+	padding-left: 100px;
+}
+
+tr, td, th
+{
+  border: 0 !important;
 }
