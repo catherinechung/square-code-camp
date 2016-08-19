@@ -196,11 +196,7 @@ a:hover {
 }
 
 th {
-	padding-left: 250px !important;
-}
-
-tbody {
-	padding-left: 100px;
+	padding-left: 90px !important;
 }
 
 tr, td, th
@@ -208,7 +204,7 @@ tr, td, th
   border: 0 !important;
 }
 
-span#library {
+#library {
 	font-size: 250%;
 	padding: 3%;
 }
