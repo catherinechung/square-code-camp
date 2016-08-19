@@ -3,7 +3,7 @@
 Website revamp for the Global Women’s Institute (GWI).
 Before URL: http://xchange.gwu.edu/
 
-The front page will be made to be more visually appealing and easier to navigate to reach user’s goals, contributing to provide a better user experience.
+The front page will be made to be more visually appealing and easier to navigate to reach users' goals, contributing to provide a better user experience.
 
 The communications library will be made with a more streamlined and fluid search/filter system. In addition, the gallery of the library will showcase the various media with greater clarity.
 
