@@ -63,6 +63,10 @@ div.container {
 	padding-left: 3%;
 }
 
+.carousel {
+	margin-top: 5%;
+}
+
 #main-carousel, #title {
 	width: 50%;
 }
@@ -82,13 +86,14 @@ div.container {
 }
 
 #main-title {
-	font-size: 600%;
+	margin-top: 10%;
+	font-size: 450%;
 	line-height: 100%;
 }
 
 #sub-title {
 	font-size: 175%;
-	line-height: 50px;
+	line-height: 175%;
 }
 
 #main-carousel {
