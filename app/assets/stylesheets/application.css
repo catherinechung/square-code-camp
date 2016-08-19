@@ -88,6 +88,10 @@ div.container {
 	line-height: 100%;
 }
 
+#sub-title {
+	font-size: 175%;
+}
+
 #main-carousel {
 	float: right;
 	margin-bottom: 10%;
